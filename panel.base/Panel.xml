@@ -1,0 +1,113 @@
+<PlaneHTMLConfig>
+	
+	<Instrument>
+		<Name>GTN750</Name>
+		<ComIndex>1</ComIndex>
+		<NavIndex>1</NavIndex>
+		<Electric>
+			<Simvar name="CIRCUIT ON:63" unit="Boolean"/>
+		</Electric>
+	</Instrument>
+
+	<Instrument>
+		<Name>AS530</Name>
+		<ComIndex>1</ComIndex>
+		<NavIndex>1</NavIndex>
+		<NewCDIBehavior>True</NewCDIBehavior>
+		<SupportAPFlightDirector>True</SupportAPFlightDirector>
+		<DisableAPNavArm>True</DisableAPNavArm>
+		<Electric>
+			<Simvar name="CIRCUIT ON:63" unit="Boolean"/>
+		</Electric>
+	</Instrument>
+	
+	<Instrument>
+		<Name>AS430</Name>
+		<ComIndex>2</ComIndex>
+		<NavIndex>2</NavIndex>
+		<NewCDIBehavior>True</NewCDIBehavior>
+		<SupportAPFlightDirector>True</SupportAPFlightDirector>
+		<DisableAPNavArm>True</DisableAPNavArm>
+		<Electric>
+			<Simvar name="CIRCUIT ON:64" unit="Boolean"/>
+		</Electric>
+	</Instrument>
+
+	<Instrument>
+		<Name>KX155B_1</Name>
+		<Electric>
+			<Simvar name="CIRCUIT ON:63" unit="Boolean"/>
+		</Electric>
+	</Instrument>
+
+	<Instrument>
+		<Name>KX155B_2</Name>
+		<Electric>
+			<Simvar name="CIRCUIT ON:64" unit="Boolean"/>
+		</Electric>
+	</Instrument>
+	
+	<Instrument>
+    	<Name>KR87A</Name>
+    	<Electric>
+			<Simvar name="CIRCUIT ON:74" unit="Boolean"/>
+    	</Electric>
+  	</Instrument>
+
+	<Instrument>
+		<Name>AS330</Name>
+		<Electric>
+			<Simvar name="CIRCUIT ON:71" unit="Boolean"/>
+		</Electric>
+	</Instrument>
+
+	<Instrument>
+		<Name>KDI572R</Name>
+		<Electric>
+			<Simvar name="CIRCUIT ON:79" unit="Boolean"/>
+		</Electric>
+		<DmeHoldIndex>4</DmeHoldIndex>
+		<RnavCircuitIndex>69</RnavCircuitIndex>
+		<RnavSourceIndex>3</RnavSourceIndex>
+	</Instrument>
+
+	<Instrument>
+		<Name>KNS81_1</Name>
+		<Electric>
+			<Simvar name="CIRCUIT ON:69" unit="Boolean"/>
+		</Electric>
+		<NavSourceIndex>3</NavSourceIndex>
+	</Instrument>
+
+	<Instrument>
+		<Name>bksq_wradar1</Name>
+		<Electric>
+			<Simvar name="CIRCUIT ON:75" unit="Boolean"/>
+		</Electric>
+	</Instrument>
+
+	<Instrument>
+		<Name>KAS297B_1</Name>
+		<Electric>
+			<Simvar name="CIRCUIT ON:72" unit="Boolean"/>
+		</Electric>
+	</Instrument>
+
+	<Instrument>
+		<Name>EDM760_1</Name>
+		<Electric>
+			<Simvar name="CIRCUIT ON:25" unit="Boolean"/>
+		</Electric>
+		<VoltsBusIndex>1</VoltsBusIndex>
+		<Com1var>var_radio1Mode</Com1var>
+		<Com2var>var_radio2Mode</Com2var>
+		<NoGpsCom1>2</NoGpsCom1>
+		<NoGpsCom2>1</NoGpsCom2>
+	</Instrument>
+	
+</PlaneHTMLConfig>
+
+
+
+
+	
